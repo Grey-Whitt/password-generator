@@ -25,6 +25,5 @@ The goal for this project was to write a JavaScript function to generate a passw
 ## This is what the page looks like after it outputs a password
 ![Full site](https://github.com/Grey-Whitt/password-generator/blob/master/Develop/site.png)
 
-## See it here 
 [See it here](https://grey-whitt.github.io/password-generator/)
 

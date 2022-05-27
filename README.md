@@ -61,6 +61,15 @@ var specialChars = ['!','@','#','$','%','^','&','*','(',')','-','_','=','+'];
 
 numChar = ['0','1','2','3','4','5','6','7','8','9'];
 
+//empty array for building list of allowed characters 
+var allowChar = []
+
+//output of random characters taken from allowChar after it is filled
+var outputPass = ''
+
+//where random characters are stored when chosen
+var randChar = '
+
   //while output for generated password is not equal to desired length 
   while(outputPass.length !== length) {
     //randomly selects characters from allowed characters array

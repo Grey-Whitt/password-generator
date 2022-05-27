@@ -2,7 +2,7 @@
 
 ## Description:  
 
-The goal for this project was to write a JavaScript function that generates a password with the given properties that the user sets and meet the bellow criteria. HTML and CSS were provided.
+The goal for this project was to write a JavaScript function that generates a password with the given properties that the user sets and meet the bellow criteria.
 
 
 ```
@@ -51,6 +51,16 @@ THEN the password is either displayed in an alert or written to the page
 
 This is the main function that generates the password
 ```
+//arrays for characters 
+var lowerChars = ['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z'];
+
+//converts lowercase array to uppercase array 
+var upperChars = lowerChars.map(function(toUp) {return toUp.toUpperCase()});
+
+var specialChars = ['!','@','#','$','%','^','&','*','(',')','-','_','=','+'];
+
+numChar = ['0','1','2','3','4','5','6','7','8','9'];
+
   //while output for generated password is not equal to desired length 
   while(outputPass.length !== length) {
     //randomly selects characters from allowed characters array
